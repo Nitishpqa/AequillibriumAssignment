@@ -1,0 +1,21 @@
+TestCases to verify the Login functionality for https://www.saucedemo.com website
+
+TC_ID_1 Verify if two fields for Username and Password is displayed
+TC_ID_2 Verify the LOGIN button is present
+TC_ID_3 Verify if a user will be able to login with a valid username and valid password.
+TC_ID_4 Verify "Epic sadface: Username and password do not match any user in this service messages" for invalid login.
+TC_ID_5 Verify if the User is not able to Login with an invalid Username and invalid Password
+TC_ID_6 Verify if the User is not able to Login with a Valid Username and invalid Password
+TC_ID_7 Verify if the User is not able to log in with an invalid Username and Valid Password
+TC_ID_8 Verify if Error message "Epic sadface: Username is required" is displayed when user clicks on LOGIN button without entering  Username and Password
+TC_ID_9 Verify if the data in password field is either visible as asterisk or bullet signs.
+TC_ID_10 Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+TC_ID_11 Verify if the enter key of the keyboard is working correctly on the login page.
+TC_ID_12 Verify if login page and all its controls in different browsers
+TC_ID_13 Verify the minimum and maximum length.
+TC_ID_14 Verify clicking on the browser back button after successful login should take the User to log out mode
+TC_ID_15 Verify clicking on the browser back button after successful logout should not take the User to a logged-in mode
+TC_ID_16 Verify there is a limit on the total number of unsuccessful login attempts
+TC_ID_17 Verify error messages closed when user clicks on X symbol on the error message box
+TC_ID_18 Verify "Epic sadface: Password is required" is displayed when user enters only Username and clicks on LOGIN
+TC_ID_19 Verify clicking on X mark on error message, removes the X mark on both Username and Password fields

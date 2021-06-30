@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Automation_Test(failed)">
+    <classes>
+      <class name="com.tests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login_Test_TC16" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="initialization"/>
+          <include name="Login_Test_TC9"/>
+          <include name="Login_Test_TC4"/>
+          <include name="Login_Test_TC1_2_3" invocation-numbers="0"/>
+          <include name="Login_Test_TC8"/>
+        </methods>
+      </class> <!-- com.tests.LoginTest -->
+    </classes>
+  </test> <!-- Automation_Test(failed) -->
+</suite> <!-- Failed suite [SwagLabs Automation Suite] -->
